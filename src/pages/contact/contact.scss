@@ -1,0 +1,50 @@
+.contact-container{
+  display: grid;
+ grid-gap: 14%;
+  grid-template-columns:repeat(auto-fill,minmax(200px,500px));
+justify-content: center;
+margin: 4%;
+}
+
+.titles{
+  color: white;
+  letter-spacing: 9px;
+  text-shadow: 4px 4px gray;
+
+}
+
+h2{
+  text-shadow: 2px 2px gray;
+}
+
+
+.grid_contact_item {
+  padding: 2%;
+  background-color:rgba(95,158,160, 0.8);
+  color: white;
+  border-radius: 16px;
+  box-shadow: 4px 4px 8px 0px rgba(111, 113, 114, 0.8);
+  
+
+}
+  .grid_contact_item h1 {line-height: 0;}
+  .grid_contact_item > h2:nth-child(2) {margin-top:12%; margin-bottom: 30px;}
+  .grid_contact_item > h2 {line-height: 100%; letter-spacing: 3px;}
+
+  .message-form{
+    padding-bottom: 120px;
+    width: 300px;
+    margin: 2%;
+  }
+
+  .email-form{
+    width: 280px;
+    margin: 2%;
+    height: 32px;
+  }
+
+.subm-button{
+  margin: 1%;
+ margin-left: 50%;
+
+}
