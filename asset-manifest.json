@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/example-website/static/css/main.67107db8.chunk.css",
-    "main.js": "/example-website/static/js/main.7f570d40.chunk.js",
-    "main.js.map": "/example-website/static/js/main.7f570d40.chunk.js.map",
+    "main.js": "/example-website/static/js/main.592f77b3.chunk.js",
+    "main.js.map": "/example-website/static/js/main.592f77b3.chunk.js.map",
     "runtime-main.js": "/example-website/static/js/runtime-main.9720a5af.js",
     "runtime-main.js.map": "/example-website/static/js/runtime-main.9720a5af.js.map",
     "static/css/2.3c03f26f.chunk.css": "/example-website/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.a1221e80.chunk.js": "/example-website/static/js/2.a1221e80.chunk.js",
-    "static/js/2.a1221e80.chunk.js.map": "/example-website/static/js/2.a1221e80.chunk.js.map",
+    "static/js/2.c7cbbe50.chunk.js": "/example-website/static/js/2.c7cbbe50.chunk.js",
+    "static/js/2.c7cbbe50.chunk.js.map": "/example-website/static/js/2.c7cbbe50.chunk.js.map",
     "index.html": "/example-website/index.html",
-    "precache-manifest.9a83d48871c2a273ae25db93b6f398c5.js": "/example-website/precache-manifest.9a83d48871c2a273ae25db93b6f398c5.js",
+    "precache-manifest.d9e078463bc6e8a688c96ad60addcaac.js": "/example-website/precache-manifest.d9e078463bc6e8a688c96ad60addcaac.js",
     "service-worker.js": "/example-website/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/example-website/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.67107db8.chunk.css.map": "/example-website/static/css/main.67107db8.chunk.css.map",
-    "static/js/2.a1221e80.chunk.js.LICENSE.txt": "/example-website/static/js/2.a1221e80.chunk.js.LICENSE.txt",
+    "static/js/2.c7cbbe50.chunk.js.LICENSE.txt": "/example-website/static/js/2.c7cbbe50.chunk.js.LICENSE.txt",
     "static/media/bg5.jpg": "/example-website/static/media/bg5.cdae5e29.jpg",
     "static/media/bg7.png": "/example-website/static/media/bg7.c9074599.png",
     "static/media/mylogo.png": "/example-website/static/media/mylogo.762c80dd.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.9720a5af.js",
     "static/css/2.3c03f26f.chunk.css",
-    "static/js/2.a1221e80.chunk.js",
+    "static/js/2.c7cbbe50.chunk.js",
     "static/css/main.67107db8.chunk.css",
-    "static/js/main.7f570d40.chunk.js"
+    "static/js/main.592f77b3.chunk.js"
   ]
 }
