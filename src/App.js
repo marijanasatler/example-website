@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import './App.css';
-import {Route, Switch} from 'react-router-dom';
+import {HashRouter,Route, Switch} from 'react-router-dom';
 import Header from './component/header';
 import Home from './pages/home/home';
 import Project from './pages/project/project';
@@ -13,6 +13,7 @@ class App extends React.Component{
   
   render(){
   return (
+    <HashRouter basename='/'>
     <div className="App">
 <Header />
 <div >
@@ -26,6 +27,7 @@ class App extends React.Component{
 </div>
 <footer>Made by <a href='https://marijana-portfolio.herokuapp.com/' target='blanck'><img  className='mylogo' src={require('./images/mylogo.png')} alt='logo'/> </a> </footer>
     </div>
+    </HashRouter>
   );
  }
 }
