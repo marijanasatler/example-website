@@ -25,7 +25,7 @@ class App extends React.Component{
     <Route path='/galery-in-progres' component={Galery404}/>
 </Switch>
 </div>
-<footer>Made by <a href='https://marijana-portfolio.herokuapp.com/' target='blanck'><img  className='mylogo' src={require('./images/mylogo.png')} alt='logo'/> </a> </footer>
+<footer>Made by <a href='https://marijanasatler.github.io/my-portfolio/' target='blanck'><img  className='mylogo' src={require('./images/mylogo.png')} alt='logo'/> </a> </footer>
     </div>
     </HashRouter>
   );

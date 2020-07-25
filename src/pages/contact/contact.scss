@@ -1,15 +1,16 @@
 .contact-container{
   display: grid;
- grid-gap: 14%;
-  grid-template-columns:repeat(auto-fill,minmax(200px,500px));
+ grid-gap: 10%;
+  grid-template-columns:repeat(auto-fill,minmax(160px,500px));
 justify-content: center;
 margin: 4%;
+
 }
 
 .titles{
   color: white;
   letter-spacing: 9px;
-  text-shadow: 4px 4px gray;
+  text-shadow: 3px 3px gray;
 
 }
 
@@ -23,7 +24,7 @@ h2{
   background-color:rgba(95,158,160, 0.8);
   color: white;
   border-radius: 16px;
-  box-shadow: 4px 4px 8px 0px rgba(111, 113, 114, 0.8);
+  box-shadow: 4px 4px 8px 6px rgba(111, 113, 114, 0.8);
   
 
 }
@@ -33,7 +34,7 @@ h2{
 
   .message-form{
     padding-bottom: 120px;
-    width: 300px;
+  width: 300px;
     margin: 2%;
   }
 
@@ -48,3 +49,30 @@ h2{
  margin-left: 50%;
 
 }
+
+
+@media screen and (max-width: 650px) {
+  .message-form{
+    width: 250px;
+    padding-bottom: 80px;
+  }
+  .email-form{
+    width: 250px;
+  }
+
+  .contact-container{
+    font-size: smaller;
+    grid-gap: 6%;
+  padding-bottom: 2%;
+  margin: 6%;
+  margin-bottom: 6%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-container{
+    margin-bottom: 6%;
+   
+  }
+}
+

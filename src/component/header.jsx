@@ -4,9 +4,9 @@ import './header.scss';
 
 const Header =()=>(
 <div class="navbar">
-<Link className='aa' to='/'  ><img className='logo-img' src={require('../images/bg7.png')} alt='logo'/></Link>
+<Link className='aa' to='/'  ><img className='logo-img' src={require('../images/mylogo.png')} alt='logo'/></Link>
   <div class="dropdown">
-    <button class="dropbtn"><img alt='logo' src={require('../images/menubar.png')}/>
+    <button class="dropbtn">&#9776;
     </button>
     <div class="dropdown-content">
     <Link className='aa' to='/'  >HOME</Link>

@@ -22,3 +22,24 @@
 	font-size: 10%;
 	line-height: 0px;
 }
+
+
+
+@media screen and (max-width: 650px) {
+    .home-container{
+		margin-top: 30vw;
+		margin-bottom: 40vw;
+		.app-container{
+			height: 100vw;
+	
+			.main_header{
+				position: relative;
+				top: 25%;
+			}
+		}
+	
+    
+    
+     
+     }
+   }

@@ -1,10 +1,11 @@
 .App {
   text-align: center;
- 
+ outline: none;
 }
 .app-container{
   margin-top: 6vw;
   margin-bottom:6vw;
+  padding-bottom: 4%;
   height: auto;
   border-top: 20px solid cadetblue;
   border-bottom: 20px solid cadetblue;
@@ -25,7 +26,7 @@ footer {
 position: fixed;
 left: 0;
 bottom: 0;
-width: 100%;
+width: 100vw;
 background-color: tan;
 padding-bottom: 2px;
 text-align: center;
@@ -46,4 +47,35 @@ p{
 	width: auto;
 }
 
+
+@media screen and (max-width: 650px) {
+  footer{
+    position: relative;
+    left: 0;
+bottom:0;
+width: 100vw;
+  }
+  .app-container{
+    height: auto;
+    border: none;
+    box-shadow: none;
+    padding-bottom: 4%;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .app-container{
+    margin-top: 18vw;
+  }
+
+}
+@media screen and (max-width: 650px) {
+footer{
+  margin-top: 4vw;
+  font-size: small;
+}  
+
+  }
 

@@ -11,10 +11,11 @@ const Galery404=()=>(
               Back to project
             </button>
                </Link></div>
+               <div className='container-404'>
          <h1 className='winp' >WORK IN PROGRES</h1>
          <div className='pt2 pb5'>
          <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
-               </div>
+               </div></div>
             
     </div>
 );

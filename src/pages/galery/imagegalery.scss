@@ -30,9 +30,13 @@ margin-bottom: 3%;
     background-color: tan;
     color: white;
   border: tan;
+  outline: none;
 
   }
-
+  .container-404{
+ 
+height: auto;
+padding-top: 4%;    }
 
   .winp{
 	font-size: 58px;
@@ -43,7 +47,7 @@ margin-bottom: 3%;
 
 
   .galery404-bg{
-    background-image: url(../../images/bg7.png);
+   /* background-image: url(../../images/bg7.png);*/
 
  background-repeat: no-repeat;
 
@@ -108,4 +112,16 @@ height: 50vw;
       transform: translate(24px, 0);
     }
   }
-  
+  @media screen and (max-width: 650px) {
+ .winp{
+   font-size: xx-large;
+ }
+
+  .galery404-bg{
+    margin-bottom: 101%;
+  }
+  .container-404{
+    padding-top: 20vw;
+  }
+  }
+
